@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 指定接口（全类名）-->
+<mapper namespace="com.lois.dao.RubbishDao">
+    <select id="findAllBySearch" parameterType="com.lois.domain.Search.SearchRubbish" resultType="com.lois.domain.Result.ResultRubbish">
+        select r.id,u.id as authorId,u.name as authorName, u.phone as authorPhone,r.name as rubbishName,r.type as rubbishTypeNub,r.intro as rubbishIntro,r.imageUrl
+        from user u,rubbish r
+        where u.id = r.uid and r.state = #{state}
+        <if test="authorName !=null and authorName!='' ">
+          and u.name like "%"#{authorName}"%"
+        </if>
+        <if test="authorPhone !=null and authorPhone!='' ">
+            and u.name = #{authorPhone}
+        </if>
+        <if test="rubbishName !=null and rubbishName !='' ">
+            and r.name like "%"#{rubbishName}"%"
+        </if>
+        <if test="optionsValue !=null and optionsValue !='' and optionsValue != 0">
+            and r.type = #{optionsValue}
+        </if>
+        limit #{start},#{size}
+    </select>
+
+    <select id="findCountBySearch" parameterType="com.lois.domain.Search.SearchRubbish" resultType="Integer">
+        select count(*)
+        from user u,rubbish r
+        where u.id = r.uid and r.state = #{state}
+        <if test="authorName !=null and authorName!='' ">
+            and u.name like "%"#{authorName}"%"
+        </if>
+        <if test="authorPhone !=null and authorPhone!='' ">
+            and u.name = #{authorPhone}
+        </if>
+        <if test="rubbishName !=null and rubbishName !='' ">
+            and r.name like "%"#{rubbishName}"%"
+        </if>
+        <if test="optionsValue !=null and optionsValue !='' and optionsValue != 0">
+            and r.type = #{optionsValue}
+        </if>
+    </select>
+
+    <delete id="deleteComments" parameterType="java.util.List">
+        delete from dynamic_comment
+        <where>
+            <if test="list!=null and list.size()>0">
+                <foreach collection="list" item="item" open="id in (" close=")" separator=",">
+                  #{item}
+                </foreach>
+            </if>
+        </where>
+    </delete>
+</mapper>

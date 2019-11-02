@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 指定接口（全类名）-->
+<mapper namespace="com.lois.dao.SettingDao">
+
+    <delete id="deletePictures" parameterType="java.util.List">
+        delete from setting_image
+        <where>
+            <if test="list!=null and list.size()>0">
+                <foreach collection="list" item="item" open="id in (" close=")" separator=",">
+                  #{item}
+                </foreach>
+            </if>
+        </where>
+    </delete>
+
+    <update id="setDynamicNotHot" parameterType="java.util.List">
+        update dynamic set hot = 0
+        <where>
+            <if test="list!=null and list.size()>0">
+                <foreach collection="list" item="item" open="id in (" close=")" separator=",">
+                    #{item}
+                </foreach>
+            </if>
+        </where>
+    </update>
+
+    <update id="setKnowNotHot" parameterType="java.util.List">
+        update know set hot = 0
+        <where>
+            <if test="list!=null and list.size()>0">
+                <foreach collection="list" item="item" open="id in (" close=")" separator=",">
+                    #{item}
+                </foreach>
+            </if>
+        </where>
+    </update>
+
+    <update id="deleteHotNews" parameterType="java.util.List">
+        update news set hot = 0
+        <where>
+            <if test="list!=null and list.size()>0">
+                <foreach collection="list" item="item" open="id in (" close=")" separator=",">
+                    #{item}
+                </foreach>
+            </if>
+        </where>
+    </update>
+</mapper>

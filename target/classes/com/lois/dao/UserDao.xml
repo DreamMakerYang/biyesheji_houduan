@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 指定接口（全类名）-->
+<mapper namespace="com.lois.dao.UserDao">
+    <select id="findAllBySearch" parameterType="com.lois.domain.Search.SearchUser" resultType="com.lois.domain.User">
+        select * from user
+        <where>
+            <if test="name != null and name != '' ">
+                and name like "%"#{name}"%"
+            </if>
+            <if test="state != null">
+                and state = #{state}
+            </if>
+            <if test="phone != null and phone != '' ">
+                and phone = #{phone}
+            </if>
+        </where>
+        limit #{start},#{size}
+    </select>
+
+    <select id="findCountBySearch" parameterType="com.lois.domain.Search.SearchUser" resultType="Integer">
+        select count(*) from user
+        <where>
+            <if test="name != null and name != '' ">
+                and name like "%"#{name}"%"
+            </if>
+            <if test="state != null">
+                and state = #{state}
+            </if>
+            <if test="phone != null and phone != '' ">
+                and phone = #{phone}
+            </if>
+        </where>
+    </select>
+
+
+</mapper>

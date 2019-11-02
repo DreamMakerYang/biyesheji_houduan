@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 指定接口（全类名）-->
+<mapper namespace="com.lois.dao.DynamicDao">
+    <select id="findAllBySearch" parameterType="com.lois.domain.Search.SearchDynamic" resultType="com.lois.domain.Result.ResultDynamic">
+        select d.id,u.id as authorId,u.name as authorName, u.phone as authorPhone,d.star,d.comment,d.content,d.title,d.hot,d.date
+        from user u,dynamic d
+        where u.id = d.uid and d.state = #{state}
+        <if test="authorName !=null and authorName!='' ">
+            and u.name like "%"#{authorName}"%"
+        </if>
+        <if test="authorPhone !=null and authorPhone!='' ">
+            and u.phone = #{authorPhone}
+        </if>
+        <if test="title !=null and title!='' ">
+            and d.title  like "%"#{title}"%"
+        </if>
+        limit #{start},#{size}
+    </select>
+
+    <select id="findCountBySearch" parameterType="com.lois.domain.Search.SearchDynamic" resultType="Integer">
+        select count(*)
+        from user u,dynamic d
+        where u.id = d.uid and d.state = #{state}
+        <if test="authorName !=null and authorName!='' ">
+            and u.name like "%"#{authorName}"%"
+        </if>
+        <if test="authorPhone !=null and authorPhone!='' ">
+            and u.phone = #{authorPhone}
+        </if>
+        <if test="title !=null and title!='' ">
+            and d.title  like "%"#{title}"%"
+        </if>
+    </select>
+
+    <delete id="deleteComments" parameterType="java.util.List">
+        delete from dynamic_comment
+        <where>
+            <if test="list!=null and list.size()>0">
+                <foreach collection="list" item="item" open="id in (" close=")" separator=",">
+                  #{item}
+                </foreach>
+            </if>
+        </where>
+    </delete>
+</mapper>

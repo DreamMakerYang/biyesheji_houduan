@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 指定接口（全类名）-->
+<mapper namespace="com.lois.dao.KnowDao">
+    <select id="findAllBySearch" parameterType="com.lois.domain.Search.SearchDynamic" resultType="com.lois.domain.Result.ResultKnow">
+        select k.id,u.id as authorId,u.name as authorName, u.phone as authorPhone,k.date,k.title,k.count,k.intro,k.imageUrl,k.hot
+        from user u,know k
+        where u.id = k.uid and k.state = #{state}
+        <if test="authorName !=null and authorName!='' ">
+          and u.name like "%"#{authorName}"%"
+        </if>
+        <if test="authorPhone !=null and authorPhone!='' ">
+            and u.phone = #{authorPhone}
+        </if>
+        <if test="title !=null and title!='' ">
+            and n.title  like "%"#{title}"%"
+        </if>
+        limit #{start},#{size}
+    </select>
+
+    <select id="findCountBySearch" parameterType="com.lois.domain.Search.SearchDynamic" resultType="Integer">
+        select count(*)
+        from user u,know k
+        where u.id = k.uid and k.state = #{state}
+        <if test="authorName !=null and authorName!='' ">
+            and u.name like "%"#{authorName}"%"
+        </if>
+        <if test="authorPhone !=null and authorPhone!='' ">
+            and u.phone = #{authorPhone}
+        </if>
+        <if test="title !=null and title!='' ">
+            and n.title  like "%"#{title}"%"
+        </if>
+    </select>
+
+
+</mapper>
