@@ -6,7 +6,102 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93edac83-c74b-45ea-8ce8-9c78b78aca5d" name="Default Changelist" comment="" />
+    <list default="true" id="93edac83-c74b-45ea-8ce8-9c78b78aca5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/controller/DynamicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/controller/DynamicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/controller/KnowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/controller/KnowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/controller/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/controller/RubbishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/controller/RubbishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/dao/DynamicDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/dao/DynamicDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/dao/KnowDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/dao/KnowDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/dao/NewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/dao/NewsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/dao/RubbishDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/dao/RubbishDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultDynamic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultKnow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultKnow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultRubbish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultRubbish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/service/DynamicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/service/DynamicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/service/KnowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/service/KnowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/service/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/service/RubbishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/service/RubbishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/service/impl/DynamicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/service/impl/DynamicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/service/impl/KnowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/service/impl/KnowServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/service/impl/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/service/impl/NewsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/service/impl/RubbishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/service/impl/RubbishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lois/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lois/utils/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lois/dao/DynamicDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lois/dao/DynamicDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lois/dao/KnowDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lois/dao/KnowDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lois/dao/NewsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lois/dao/NewsDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/controller/DynamicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/controller/DynamicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/controller/KnowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/controller/KnowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/controller/NewsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/controller/NewsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/controller/RubbishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/controller/RubbishController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/dao/DynamicDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/dao/DynamicDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/dao/DynamicDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/dao/DynamicDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/dao/KnowDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/dao/KnowDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/dao/KnowDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/dao/KnowDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/dao/NewsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/dao/NewsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/dao/NewsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/dao/NewsDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/dao/RubbishDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/dao/RubbishDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/domain/Result/ResultComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/domain/Result/ResultComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/domain/Result/ResultDynamic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/domain/Result/ResultDynamic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/domain/Result/ResultKnow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/domain/Result/ResultKnow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/domain/Result/ResultNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/domain/Result/ResultNews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/domain/Result/ResultRubbish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/domain/Result/ResultRubbish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/domain/Result/ResultUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/domain/Result/ResultUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/service/DynamicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/service/DynamicService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/service/KnowService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/service/KnowService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/service/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/service/NewsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/service/RubbishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/service/RubbishService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/service/impl/DynamicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/service/impl/DynamicServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/service/impl/KnowServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/service/impl/KnowServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/service/impl/NewsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/service/impl/NewsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/service/impl/RubbishServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/service/impl/RubbishServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lois/utils/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lois/utils/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/controller/DynamicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/controller/DynamicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/controller/KnowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/controller/KnowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/controller/NewsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/controller/NewsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/controller/RubbishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/controller/RubbishController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/DynamicDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/DynamicDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/DynamicDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/DynamicDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/KnowDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/KnowDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/KnowDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/KnowDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/NewsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/NewsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/NewsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/NewsDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/RubbishDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/RubbishDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/domain/Result/ResultComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/domain/Result/ResultComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/domain/Result/ResultDynamic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/domain/Result/ResultDynamic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/domain/Result/ResultKnow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/domain/Result/ResultKnow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/domain/Result/ResultNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/domain/Result/ResultNews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/domain/Result/ResultRubbish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/domain/Result/ResultRubbish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/domain/Result/ResultUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/domain/Result/ResultUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/DynamicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/DynamicService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/KnowService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/KnowService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/NewsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/RubbishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/RubbishService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/impl/DynamicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/impl/DynamicServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/impl/KnowServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/impl/KnowServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/impl/NewsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/impl/NewsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/impl/RubbishServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/impl/RubbishServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/utils/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/com/lois/utils/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenhome/WEB-INF/classes/springmvc.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,115 +114,138 @@
     <session id="1608260524">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.15" value="4" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.22" value="3" />
-          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.22" value="5" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="4" />
-          <entry key="java" value="179" />
+          <entry key="java" value="281" />
+          <entry key="jpg" value="1" />
           <entry key="jsp" value="3" />
+          <entry key="png" value="2" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="40" />
+          <entry key="xml" value="53" />
+          <entry key="xsd" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="179" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="281" />
           <entry key="JSP" value="3" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="44" />
+          <entry key="XML" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="8805" />
+          <entry key="java" value="12951" />
           <entry key="jsp" value="1" />
-          <entry key="xml" value="831" />
+          <entry key="xml" value="973" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8805" />
+          <entry key="JAVA" value="12951" />
           <entry key="JSP" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SQL" value="45" />
-          <entry key="XML" value="786" />
+          <entry key="SQL" value="51" />
+          <entry key="XML" value="922" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/DynamicServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="117">
+              <caret line="64" column="68" lean-forward="true" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/SettingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="15" column="72" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="72" />
+            <state relative-caret-position="779">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/DynamicDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="418">
+              <caret line="22" column="17" selection-start-line="20" selection-start-column="8" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/NewsDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/SettingServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/KnowDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Setting/ResultHotAttention.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/DynamicDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1045">
+              <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -150,30 +268,21 @@
       <find>findById</find>
       <find>rubbishTypeNub</find>
       <find>findUserCountByPhone</find>
+      <find>setStar</find>
+      <find>resultUser</find>
+      <find>change</find>
+      <find>findOneById</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Dynamic.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/lois/dao/DynamicDao.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Search/SearchDynamic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultComment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/DynamicService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/impl/DynamicServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultNews.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/NewsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/impl/NewsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/dao/NewsDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/lois/dao/UserDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultRubbish.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Search/SearchRubbish.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/lois/dao/RubbishDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultKnow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/KnowService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/controller/KnowController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/impl/KnowServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/dao/KnowDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/controller/settingController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Setting/Setting.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Setting/Init.java" />
@@ -181,31 +290,47 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Setting/HotAttention.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Setting/ResultHotAttention.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/lois/dao/SettingDao.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/upload.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Setting/Picture.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/dao/SettingDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/service/SettingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/utils/JwtUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/service/impl/SettingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/NewsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultNews.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultKnow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/controller/KnowController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/KnowService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultComment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/utils/JwtUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/DynamicService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/controller/DynamicController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultRubbish.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/controller/SettingController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultRubbishName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/controller/RubbishController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/RubbishService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/dao/RubbishDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultUserPublish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/impl/RubbishServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/dao/KnowDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/dao/NewsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/dao/DynamicDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/impl/DynamicServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultDynamic.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/lois/dao/DynamicDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/dao/DynamicDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/lois/dao/KnowDao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/com/lois/dao/NewsDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/controller/NewsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/controller/DynamicController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/dao/RubbishDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/impl/RubbishServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/RubbishService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lois/controller/RubbishController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/impl/KnowServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lois/service/impl/NewsServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -242,16 +367,19 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="790" />
-    <option name="y" value="270" />
-    <option name="width" value="1395" />
-    <option name="height" value="745" />
+    <option name="x" value="-235" />
+    <option name="y" value="-30" />
+    <option name="width" value="1750" />
+    <option name="height" value="1060" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -407,19 +535,50 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="greenhome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenhome" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenhome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenhome" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="greenhome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenhome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenhome" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="greenhome" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenhome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenhome" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="greenhome" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="setting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenhome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenhome" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="greenhome" type="462c0819:PsiDirectoryNode" />
+              <item name="setting" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572678689635" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574148833209" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaProgram/travel" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -610,7 +769,25 @@
       <workItem from="1572274039928" duration="148000" />
       <workItem from="1572415652797" duration="6742000" />
       <workItem from="1572500764601" duration="5261000" />
-      <workItem from="1572673437205" duration="2563000" />
+      <workItem from="1572673437205" duration="9830000" />
+      <workItem from="1572764958870" duration="1986000" />
+      <workItem from="1572859685475" duration="3614000" />
+      <workItem from="1572923836955" duration="3184000" />
+      <workItem from="1573019969650" duration="11251000" />
+      <workItem from="1573106769454" duration="6828000" />
+      <workItem from="1573283233008" duration="12214000" />
+      <workItem from="1573456144389" duration="5579000" />
+      <workItem from="1573481367777" duration="415000" />
+      <workItem from="1573528528696" duration="889000" />
+      <workItem from="1573532335066" duration="511000" />
+      <workItem from="1573563108931" duration="757000" />
+      <workItem from="1573624656899" duration="2747000" />
+      <workItem from="1573693422485" duration="2360000" />
+      <workItem from="1573779511231" duration="11520000" />
+      <workItem from="1573870641249" duration="4383000" />
+      <workItem from="1573998799135" duration="1214000" />
+      <workItem from="1574056120433" duration="10663000" />
+      <workItem from="1574134966135" duration="1227000" />
     </task>
     <servers />
   </component>
@@ -632,7 +809,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115845000" />
+    <option name="totallyTimeSpent" value="204454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
@@ -644,21 +821,21 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24463807" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.31099194" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" sideWeight="0.49810964" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49905482" weight="0.3297414" />
       <window_info anchor="bottom" id="Docker" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50189036" side_tool="true" weight="0.38793105" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.3937677" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.3929078" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49810964" weight="0.41359773" />
-      <window_info anchor="bottom" id="Debug" order="12" visible="true" weight="0.30028328" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49810964" weight="0.41276595" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.33475178" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="15" />
@@ -672,41 +849,6 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25670242" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Docker" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.3937677" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.17705382" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.34135976" />
-      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -715,315 +857,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/reflection/ParamNameResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/binding/MapperMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/SqlSessionTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="428" selection-start-line="428" selection-end-line="428" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/SqlSessionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.2.RELEASE/spring-core-5.0.2.RELEASE-sources.jar!/org/springframework/util/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.2.RELEASE/spring-tx-5.0.2.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionSynchronizationUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.2.RELEASE/spring-tx-5.0.2.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionSynchronizationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultRubbish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Setting/HotAttention.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Setting/Init.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/SettingDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/utils/JwtUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/SettingDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="217" selection-start-line="217" selection-end-line="217" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/UserDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/DynamicDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="7" column="122" lean-forward="true" selection-start-line="7" selection-start-column="122" selection-end-line="7" selection-end-column="129" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/DynamicDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="33" column="134" selection-start-line="33" selection-start-column="134" selection-end-line="33" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultDynamic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/DynamicServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/KnowDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Search/SearchRubbish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Search/SearchDynamic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultNews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/NewsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/NewsDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/DynamicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/NewsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="41" selection-start-line="41" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/NewsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/RubbishController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/KnowServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/KnowDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/RubbishService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/RubbishServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/RubbishDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/RubbishDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/NewsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" column="68" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/KnowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="53" column="42" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Setting/Picture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/SettingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="50" column="39" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/SettingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Setting/ResultHotAttention.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1034,51 +871,348 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/UserDao.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/bind/annotation/CrossOrigin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="72" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="234">
+          <caret line="131" column="7" lean-forward="true" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="19" />
+        <state>
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Search/SearchRubbish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/greenhome/images/setting/2870CA654B4D4AEBA8BA55250B7DE2B0-zoumadeng3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/greenhome/setting/E14BFD4B1EC94B5C933217C0956E4EEE-1111.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/bind/annotation/CookieValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-419">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE.jar!/org/springframework/web/servlet/config/spring-mvc.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-244">
+          <caret line="1300" column="4" selection-start-line="1300" selection-start-column="4" selection-end-line="1300" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/NewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultKnow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/annotations/Insert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="878" selection-start-line="878" selection-end-line="878" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/utils/JwtUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/DynamicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultRubbish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultRubbishName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/RubbishController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="64" column="64" selection-start-line="64" selection-start-column="64" selection-end-line="64" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/RubbishService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/RubbishDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="37" column="77" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/RubbishDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="77" column="62" selection-start-line="77" selection-start-column="62" selection-end-line="77" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultUserPublish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="184" selection-start-line="16" selection-start-column="184" selection-end-line="16" selection-end-column="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="67" column="39" lean-forward="true" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/NewsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/RubbishServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/KnowService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/KnowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/NewsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/KnowDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/DynamicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Result/ResultDynamic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/controller/SettingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/DynamicDao.xml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="17" selection-start-line="20" selection-start-column="8" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/NewsDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lois/dao/KnowDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/domain/Setting/ResultHotAttention.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/dao/DynamicDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/SettingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/NewsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="57" column="68" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/KnowServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="59" column="68" selection-start-line="59" selection-start-column="68" selection-end-line="59" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lois/service/impl/DynamicServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="64" column="68" lean-forward="true" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="68" />
         </state>
       </provider>
     </entry>

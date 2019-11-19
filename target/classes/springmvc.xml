@@ -11,6 +11,14 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <mvc:cors>
+        <mvc:mapping path="/**"
+             allowed-origins="http://localhost:3000,http://127.0.0.1:3000,http://localhost:9528,http://127.0.0.1:9528"
+             allowed-methods="GET,POST,PUT,POST,DELETE"
+             max-age="3600" />
+    </mvc:cors>
+
+
     <!-- 扫描controller的注解，别的不扫描 -->
     <context:component-scan base-package="com.lois">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>

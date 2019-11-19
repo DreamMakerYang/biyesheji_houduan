@@ -1,6 +1,7 @@
 package com.lois.service;
 
 import com.lois.domain.Result.ResultUser;
+import com.lois.domain.Result.ResultUserPublish;
 import com.lois.domain.User;
 import com.lois.utils.entity.PageResult;
 
@@ -22,4 +23,6 @@ public interface UserService {
     String managerLogin(Map<String, String> map);
 
     int findUserCountByPhone(String phone);
+
+    ResultUserPublish findUserPublish(Integer id);
 }

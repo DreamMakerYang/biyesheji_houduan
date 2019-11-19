@@ -3,6 +3,7 @@ package com.lois.dao;
 import com.lois.domain.Result.ResultKnow;
 import com.lois.domain.Result.ResultNews;
 import com.lois.domain.Search.SearchDynamic;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
@@ -32,4 +33,11 @@ public interface KnowDao {
 
     @Update("update know set content = #{content} where id = #{id}")
     void setContent(@Param("id") int id, @Param("content") String content);
+
+    @Insert("INSERT INTO `know`(`uid`, `title`, `count`, `imageUrl`, `intro`, `content`, `date`, `hot`, `state`) " +
+            "VALUES (#{authorId},#{title},#{count},#{imageUrl},#{intro},#{content},#{date},#{hot},#{state})")
+    void addNews(ResultKnow know);
+
+    @Update("update know set count = count+1 where id = #{id}")
+    void countUp(int id);
 }

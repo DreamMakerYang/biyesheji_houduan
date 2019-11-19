@@ -5,7 +5,8 @@
 <!-- namespace 指定接口（全类名）-->
 <mapper namespace="com.lois.dao.DynamicDao">
     <select id="findAllBySearch" parameterType="com.lois.domain.Search.SearchDynamic" resultType="com.lois.domain.Result.ResultDynamic">
-        select d.id,u.id as authorId,u.name as authorName, u.phone as authorPhone,d.star,d.comment,d.content,d.title,d.hot,d.date
+        select * from (select d.id,u.id as authorId,u.name as authorName, u.phone as
+        authorPhone,d.star,d.comment,d.content,d.title,d.hot,d.date
         from user u,dynamic d
         where u.id = d.uid and d.state = #{state}
         <if test="authorName !=null and authorName!='' ">
@@ -15,9 +16,11 @@
             and u.phone = #{authorPhone}
         </if>
         <if test="title !=null and title!='' ">
-            and d.title  like "%"#{title}"%"
+            and d.title like "%"#{title}"%"
         </if>
-        limit #{start},#{size}
+        order by date desc
+        )
+        as total limit #{start},#{size}
     </select>
 
     <select id="findCountBySearch" parameterType="com.lois.domain.Search.SearchDynamic" resultType="Integer">
@@ -45,4 +48,9 @@
             </if>
         </where>
     </delete>
+
+    <insert id="addDynamic" parameterType="com.lois.domain.Result.ResultDynamic" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO `dynamic`(`uid`, `title`, `star`, `comment`, `hot`, `content`, `state`, `date`)
+        VALUES (#{authorId},#{title},#{star},#{comment},#{hot},#{content},#{state},#{date})
+    </insert>
 </mapper>

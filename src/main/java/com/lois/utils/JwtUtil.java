@@ -30,7 +30,7 @@ public class JwtUtil {
 
     private String key = "lois";
 
-    private long ttl = 3600000;//一个小时
+    private long ttl = 3600000*24;//一个小时
 
     public String getKey() {
         return key;

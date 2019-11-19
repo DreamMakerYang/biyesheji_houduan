@@ -12,6 +12,15 @@ public class ResultRubbish implements Serializable {
     private int rubbishTypeNub;
     private String rubbishIntro;
     private String imageUrl;
+    private int state;
+
+    public int getState() {
+        return state;
+    }
+
+    public void setState(int state) {
+        this.state = state;
+    }
 
     public int getId() {
         return id;

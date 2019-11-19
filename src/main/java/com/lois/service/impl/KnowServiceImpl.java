@@ -11,6 +11,8 @@ import com.lois.utils.entity.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -29,7 +31,7 @@ public class KnowServiceImpl implements KnowService {
      */
     @Override
     public PageResult<ResultKnow> findSearch(Map<String, String> searchMap, int page, int size) {
-        SearchDynamic searchDynamic = new SearchDynamic(Integer.valueOf(searchMap.get("state")),searchMap.get("authorName"),searchMap.get("authorPhone"),searchMap.get("title"),(page-1) * 10,size);
+        SearchDynamic searchDynamic = new SearchDynamic(Integer.valueOf(searchMap.get("state")),searchMap.get("authorName"),searchMap.get("authorPhone"),searchMap.get("title"),(page-1) * size,size);
         List<ResultKnow> resultNews = knowDao.findAllBySearch(searchDynamic);
         int count = knowDao.findCountBySearch(searchDynamic);
         PageResult<ResultKnow> pageResult = new PageResult<>(count,resultNews);
@@ -38,6 +40,8 @@ public class KnowServiceImpl implements KnowService {
 
     @Override
     public ResultKnow findOneById(int id) {
+//        浏览量增加
+        knowDao.countUp(id);
         return knowDao.findOneById(id);
     }
 
@@ -49,6 +53,17 @@ public class KnowServiceImpl implements KnowService {
     @Override
     public void setContent(int id, String content) {
         knowDao.setContent(id,content);
+    }
+
+    @Override
+    public void addNews(ResultKnow know) {
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+        know.setState(0);
+        know.setDate(df.format(new Date()));
+        know.setCount(0);
+        know.setHot(0);
+
+        knowDao.addNews(know);
     }
 
     @Override

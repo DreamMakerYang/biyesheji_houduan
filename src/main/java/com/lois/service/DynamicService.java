@@ -22,4 +22,14 @@ public interface DynamicService {
     ResultDynamic findOneById(int id);
 
     void setHot(int id);
+
+    void addDynamic(ResultDynamic dynamic);
+
+    String[] findImageById(int id);
+
+    void addComment(ResultComment resultComment);
+
+    boolean hasStar(int id, int uid);
+
+    void setStar(int id, int uid, int flag);
 }

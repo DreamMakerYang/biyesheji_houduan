@@ -17,4 +17,6 @@ public interface NewsService {
     void setHot(int id);
 
     void setContent(int id, String content);
+
+    void addNews(ResultNews news);
 }

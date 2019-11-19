@@ -5,12 +5,39 @@ public class ResultDynamic {
     private int authorId;
     private String authorName;
     private String authorPhone;
+    private String authorImage;
     private String title;
     private int star;
     private int comment;
     private String content;
     private int hot;
     private String date;
+    private int state;
+    private String imageUrl;
+
+    public String getAuthorImage() {
+        return authorImage;
+    }
+
+    public void setAuthorImage(String authorImage) {
+        this.authorImage = authorImage;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public int getState() {
+        return state;
+    }
+
+    public void setState(int state) {
+        this.state = state;
+    }
 
     public int getId() {
         return id;

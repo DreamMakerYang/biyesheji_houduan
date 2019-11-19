@@ -14,6 +14,15 @@ public class ResultNews implements Serializable {
     private String imageUrl;
     private int hot;
     private String content;
+    private int state;
+
+    public int getState() {
+        return state;
+    }
+
+    public void setState(int state) {
+        this.state = state;
+    }
 
     public String getContent() {
         return content;

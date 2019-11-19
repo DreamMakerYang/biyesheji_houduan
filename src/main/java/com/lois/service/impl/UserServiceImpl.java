@@ -2,6 +2,7 @@ package com.lois.service.impl;
 
 import com.lois.dao.UserDao;
 import com.lois.domain.Result.ResultUser;
+import com.lois.domain.Result.ResultUserPublish;
 import com.lois.domain.Search.SearchUser;
 import com.lois.domain.User;
 import com.lois.service.UserService;
@@ -30,7 +31,7 @@ public class UserServiceImpl implements UserService {
         User user = userDao.findOneByPhoneAndPass(loginUser);
         if(user != null){
             String token = jwtUtil.createJWT(user.getId().toString(), user.getName());
-            resultUser = new ResultUser(token,user.getName(),user.getGender(),user.getPhone(),user.getPass(),user.getDate(),user.getImage(),user.getState());
+            resultUser = new ResultUser(token,user.getName(),user.getImage(),user.getState());
         }
         return resultUser;
     }
@@ -57,6 +58,22 @@ public class UserServiceImpl implements UserService {
     @Override
     public int findUserCountByPhone(String phone) {
         return userDao.findUserCountByPhone(phone);
+    }
+
+    @Override
+    public ResultUserPublish findUserPublish(Integer id) {
+        int dynamicNo = userDao.findCountDynamicByIdAndState(id,0);
+        int dynamicYes = userDao.findCountDynamicByIdAndState(id,1);
+        int dynamicStar = userDao.findCountDynamicStarById(id);
+        int newNo = userDao.findCountNewByIdAndState(id,0);
+        int newYes = userDao.findCountNewByIdAndState(id,1);
+        int newLook = userDao.findCountNewLookById(id);
+        int rubbishNo = userDao.findCountRubbishByIdAndState(id,0);
+        int rubbishYes = userDao.findCountRubbishByIdAndState(id,1);
+        int knowNo = userDao.findCountKnowByIdAndState(id,0);
+        int knowYes = userDao.findCountKnowByIdAndState(id,1);
+        int knowLook = userDao.findCountKnowLookById(id);
+        return new ResultUserPublish(dynamicNo,dynamicYes,dynamicStar,newNo,newYes,newLook,rubbishNo,rubbishYes,knowNo,knowYes,knowLook);
     }
 
     @Override

@@ -34,4 +34,25 @@ public interface UserDao {
 
     @Select("select count(*) from user where phone = #{phone}")
     int findUserCountByPhone(String phone);
+
+    @Select("select count(*) from dynamic where uid = #{id} and state = #{state}")
+    int findCountDynamicByIdAndState(@Param("id") Integer id,@Param("state") int i);
+
+    @Select("select COALESCE(sum(star),0) from dynamic where uid = #{id}")
+    int findCountDynamicStarById(Integer id);
+
+    @Select("select count(*) from news where uid = #{id} and state = #{state}")
+    int findCountNewByIdAndState(@Param("id") Integer id,@Param("state") int i);
+
+    @Select("select COALESCE(sum(count),0) from news where uid = #{id}")
+    int findCountNewLookById(Integer id);
+
+    @Select("select count(*) from rubbish where uid = #{id} and state = #{state}")
+    int findCountRubbishByIdAndState(@Param("id") Integer id,@Param("state") int i);
+
+    @Select("select count(*) from know where uid = #{id} and state = #{state}")
+    int findCountKnowByIdAndState(@Param("id") Integer id,@Param("state") int i);
+
+    @Select("select COALESCE(sum(count),0) from know where uid = #{id}")
+    int findCountKnowLookById(Integer id);
 }

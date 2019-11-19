@@ -5,7 +5,7 @@
 <!-- namespace 指定接口（全类名）-->
 <mapper namespace="com.lois.dao.NewsDao">
     <select id="findAllBySearch" parameterType="com.lois.domain.Search.SearchDynamic" resultType="com.lois.domain.Result.ResultNews">
-        select n.id,u.id as authorId,u.name as authorName, u.phone as authorPhone,n.date,n.title,n.count,n.intro,n.imageUrl,n.hot
+        select * from (select n.id,u.id as authorId,u.name as authorName, u.phone as authorPhone,n.date,n.title,n.count,n.intro,n.imageUrl,n.hot
         from user u,news n
         where u.id = n.uid and n.state = #{state}
         <if test="authorName !=null and authorName!='' ">
@@ -17,7 +17,9 @@
         <if test="title !=null and title!='' ">
             and n.title  like "%"#{title}"%"
         </if>
-        limit #{start},#{size}
+        order by date desc
+        )
+        as total limit #{start},#{size}
     </select>
 
     <select id="findCountBySearch" parameterType="com.lois.domain.Search.SearchDynamic" resultType="Integer">

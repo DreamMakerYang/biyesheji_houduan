@@ -9,6 +9,8 @@ import com.lois.utils.entity.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -27,7 +29,7 @@ public class NewsServiceImpl implements NewsService {
      */
     @Override
     public PageResult<ResultNews> findSearch(Map<String, String> searchMap, int page, int size) {
-        SearchDynamic searchDynamic = new SearchDynamic(Integer.valueOf(searchMap.get("state")),searchMap.get("authorName"),searchMap.get("authorPhone"),searchMap.get("title"),(page-1) * 10,size);
+        SearchDynamic searchDynamic = new SearchDynamic(Integer.valueOf(searchMap.get("state")),searchMap.get("authorName"),searchMap.get("authorPhone"),searchMap.get("title"),(page-1) * size,size);
         List<ResultNews> resultNews = newsDao.findAllBySearch(searchDynamic);
         int count = newsDao.findCountBySearch(searchDynamic);
         PageResult<ResultNews> pageResult = new PageResult<>(count,resultNews);
@@ -36,6 +38,8 @@ public class NewsServiceImpl implements NewsService {
 
     @Override
     public ResultNews findOneById(int id) {
+        //        浏览量增加
+        newsDao.countUp(id);
         return newsDao.findOneById(id);
     }
 
@@ -47,6 +51,17 @@ public class NewsServiceImpl implements NewsService {
     @Override
     public void setContent(int id, String content) {
         newsDao.setContent(id,content);
+    }
+
+    @Override
+    public void addNews(ResultNews news) {
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+        news.setState(0);
+        news.setDate(df.format(new Date()));
+        news.setCount(0);
+        news.setHot(0);
+
+        newsDao.addNews(news);
     }
 
     @Override

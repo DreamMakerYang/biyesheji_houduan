@@ -2,6 +2,7 @@ package com.lois.dao;
 
 import com.lois.domain.Result.ResultNews;
 import com.lois.domain.Search.SearchDynamic;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
@@ -31,4 +32,11 @@ public interface NewsDao {
 
     @Update("update news set content = #{content} where id = #{id}")
     void setContent(@Param("id") int id,@Param("content") String content);
+
+    @Insert("INSERT INTO `news`(`uid`, `title`, `count`, `imageUrl`, `intro`, `content`, `date`, `hot`, `state`) " +
+            "VALUES (#{authorId},#{title},#{count},#{imageUrl},#{intro},#{content},#{date},#{hot},#{state})")
+    void addNews(ResultNews news);
+
+    @Update("update news set count = count+1 where id = #{id}")
+    void countUp(int id);
 }

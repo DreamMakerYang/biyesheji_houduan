@@ -4,6 +4,7 @@ import com.lois.dao.NewsDao;
 import com.lois.dao.RubbishDao;
 import com.lois.domain.Result.ResultNews;
 import com.lois.domain.Result.ResultRubbish;
+import com.lois.domain.Result.ResultRubbishName;
 import com.lois.domain.Search.SearchDynamic;
 import com.lois.domain.Search.SearchRubbish;
 import com.lois.service.NewsService;
@@ -33,7 +34,7 @@ public class RubbishServiceImpl implements RubbishService {
         if (searchMap.get("optionsValue") == null){
             searchMap.put("optionsValue","0");
         }
-        SearchRubbish searchRubbish = new SearchRubbish(Integer.valueOf(searchMap.get("state")),searchMap.get("authorName"),searchMap.get("authorPhone"),searchMap.get("rubbishName"),Integer.valueOf(searchMap.get("optionsValue")),(page-1) * 10,size);
+        SearchRubbish searchRubbish = new SearchRubbish(Integer.valueOf(searchMap.get("state")),searchMap.get("authorName"),searchMap.get("authorPhone"),searchMap.get("rubbishName"),Integer.valueOf(searchMap.get("optionsValue")),(page-1) * size,size);
         List<ResultRubbish> resultRubbishes = rubbishDao.findAllBySearch(searchRubbish);
         int count = rubbishDao.findCountBySearch(searchRubbish);
         PageResult<ResultRubbish> pageResult = new PageResult<>(count,resultRubbishes);
@@ -43,6 +44,22 @@ public class RubbishServiceImpl implements RubbishService {
     @Override
     public ResultRubbish findOneById(int id) {
         return rubbishDao.findOneById(id);
+    }
+
+    @Override
+    public void addRubbish(ResultRubbish rubbish) {
+        rubbish.setState(0);
+        rubbishDao.addRubbish(rubbish);
+    }
+
+    /**
+     * 给前端提供搜索建议
+     * @param queryString
+     * @return
+     */
+    @Override
+    public List<ResultRubbishName> findByName(String queryString) {
+        return rubbishDao.findByName("%"+queryString+"%");
     }
 
     @Override

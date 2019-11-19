@@ -2,6 +2,7 @@ package com.lois.dao;
 
 import com.lois.domain.Result.ResultNews;
 import com.lois.domain.Result.ResultRubbish;
+import com.lois.domain.Result.ResultRubbishName;
 import com.lois.domain.Search.SearchDynamic;
 import com.lois.domain.Search.SearchRubbish;
 import com.lois.domain.Search.SearchUser;
@@ -30,4 +31,10 @@ public interface RubbishDao {
     @Select("select r.id,u.id as authorId,u.name as authorName, u.phone as authorPhone,r.name as rubbishName,r.type as rubbishTypeNub,r.intro as rubbishIntro,r.imageUrl\n" +
             "from user u,rubbish r where r.id = #{id} and r.uid = u.id")
     ResultRubbish findOneById(int id);
+
+    @Insert("insert into rubbish(uid,name,type,imageUrl,intro,state) values(#{authorId},#{rubbishName},#{rubbishTypeNub},#{imageUrl},#{rubbishIntro},#{state})")
+    void addRubbish(ResultRubbish rubbish);
+
+    @Select("select name as value from rubbish where name like #{queryString}")
+    List<ResultRubbishName> findByName(String queryString);
 }
